@@ -1,0 +1,1 @@
+<view id="attention" class="data-v-c76bbfb8"><button type="default" data-event-opts="{{[['tap',[['test',['$event']]]]]}}" bindtap="__e" class="data-v-c76bbfb8">点击获取数据</button></view>

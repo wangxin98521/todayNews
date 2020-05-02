@@ -1,0 +1,1 @@
+<view id="goLogin" class="data-v-6c43d4a8"><text data-event-opts="{{[['tap',[['goLogin',['$event']]]]]}}" bindtap="__e" class="data-v-6c43d4a8">请先登入</text></view>

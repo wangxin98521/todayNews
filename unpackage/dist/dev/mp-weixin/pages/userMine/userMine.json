@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "user-mine-info": "/components/userMineInfo/userMineInfo",
+    "personal-dynamic": "/components/personalDynamic/personalDynamic"
+  }
+}
