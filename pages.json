@@ -14,7 +14,11 @@
 			"style": {
 				"navigationBarTitleText": "我的"}
 		}
-	],
+	    ,{
+            "path" : "pages/search/search",
+            "style" : {}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "今日头条",
