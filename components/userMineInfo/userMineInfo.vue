@@ -45,27 +45,29 @@
 		// background-color: red;
 		.block {
 			width: 100%;
-			height: 12vh;
+			height: 200rpx;
 		}
 
 		.white {
 			width: 100%;
-			height: 12vh;
+			height: 200rpx;
 			background-color: white;
 			border-bottom: 1rpx solid #efefef;
 			display: flex;
+			position: relative;
 			.userInfo{
 				width: 60vw;
-				height: 17vh;
+				height: 200rpx;
 				// background-color: red;
-				margin-top: -5vh;
+				margin-top: -100rpx;
 				color: #222222;
 				font-weight: 800;
 				padding: 0 20rpx;
 				.titleImg{
 					margin-bottom: 20rpx;
-					img{
-						width: 154rpx;
+					image{
+						width: 140rpx;
+						height: 140rpx;
 						border-radius: 50%;
 						border: 7rpx solid #FFFFFF;
 					}
@@ -73,16 +75,21 @@
 						width: 154rpx;
 						height: 154rpx;
 						border-radius: 50%;
-						background-color: #007AFF;
+						background-color: #279FE1;
 						border: 7rpx solid #FFFFFF;
 						line-height: 154rpx;
 						text-align: center;
 						color: #FFFDEF;
 					}
 				}
+				.userName{
+					padding: 0 20rpx;
+				}
 				.userNum{
 					font-size: 30rpx;
 					color: #a6a6a6;
+					margin-top: 20rpx;
+					padding: 0 20rpx;
 					text{
 						margin-right: 5rpx;
 						margin-left: 20rpx;
@@ -94,18 +101,24 @@
 				}
 			}
 			.editor{
-				width: 40vw;
-				height: 12vh;
+				// width: 40vw;
+				width: auto;
+				height: 150rpx;
+				float: left;
 				// background-color: #CCCCCC;
 				padding: 30rpx 10rpx;
-				font-size: 20rpx;
+				font-size: 24rpx;
 				color: #613dbc;
+				position: absolute;
+				font-weight: 700;
+				right: 0;
 				text{
-					padding: 10rpx;
+					padding: 10rpx 0;
 				}
 				.editData{
-					margin-left: 30rpx;
 					color: #0068d8;
+					margin: 0 20rpx;
+					padding: 10rpx;
 					border: 2rpx solid #0068d8;
 				}
 			}

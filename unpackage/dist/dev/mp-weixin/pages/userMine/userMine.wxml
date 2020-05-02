@@ -1,1 +1,1 @@
-<view id="userMine"><user-mine-info class="userMineInfo" vue-id="0c9c5d80-1" userMineInfo="{{userMineInfo}}" bind:__l="__l"></user-mine-info><personal-dynamic class="personalDynamic" vue-id="0c9c5d80-2" personalDynamic="{{personalDynamic}}" bind:__l="__l"></personal-dynamic></view>
+<view id="userMine"><user-mine-info class="userMineInfo" vue-id="0c9c5d80-1" userMineInfo="{{userMineInfo}}" bind:__l="__l"></user-mine-info><view class="dynamic"><text>动态</text></view></view>

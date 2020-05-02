@@ -18,6 +18,9 @@
 		}, {
 			"path": "pages/userMine/userMine",
 			"style": {}
+		}, {
+			"path": "pages/search/search",
+			"style": {}
 		}
 	],
 	"globalStyle": {

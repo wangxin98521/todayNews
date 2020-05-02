@@ -57,7 +57,7 @@
 		// 关于登入
 		.login {
 			width: 100%;
-			height: 300rpx;
+			height: 400rpx;
 			background-color: #3e3e3e;
 		}
 

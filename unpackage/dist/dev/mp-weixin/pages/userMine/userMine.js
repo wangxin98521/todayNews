@@ -94,10 +94,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "components", function() { return components; });
 var components = {
   userMineInfo: function() {
-    return __webpack_require__.e(/*! import() | components/userMineInfo/userMineInfo */ "components/userMineInfo/userMineInfo").then(__webpack_require__.bind(null, /*! @/components/userMineInfo/userMineInfo.vue */ 67))
-  },
-  personalDynamic: function() {
-    return __webpack_require__.e(/*! import() | components/personalDynamic/personalDynamic */ "components/personalDynamic/personalDynamic").then(__webpack_require__.bind(null, /*! @/components/personalDynamic/personalDynamic.vue */ 74))
+    return __webpack_require__.e(/*! import() | components/userMineInfo/userMineInfo */ "components/userMineInfo/userMineInfo").then(__webpack_require__.bind(null, /*! @/components/userMineInfo/userMineInfo.vue */ 80))
   }
 }
 var render = function() {
@@ -137,7 +134,8 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var userMineInfo = function userMineInfo() {__webpack_require__.e(/*! require.ensure | components/userMineInfo/userMineInfo */ "components/userMineInfo/userMineInfo").then((function () {return resolve(__webpack_require__(/*! ../../components/userMineInfo/userMineInfo.vue */ 67));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var personalDynamic = function personalDynamic() {__webpack_require__.e(/*! require.ensure | components/personalDynamic/personalDynamic */ "components/personalDynamic/personalDynamic").then((function () {return resolve(__webpack_require__(/*! ../../components/personalDynamic/personalDynamic.vue */ 74));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var userMineInfo = function userMineInfo() {__webpack_require__.e(/*! require.ensure | components/userMineInfo/userMineInfo */ "components/userMineInfo/userMineInfo").then((function () {return resolve(__webpack_require__(/*! ../../components/userMineInfo/userMineInfo.vue */ 80));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};
+
 
 
 
@@ -147,24 +145,20 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 
 // 用户个人中心
+// 用户个人中心
 var _default = {
   components: {
-    userMineInfo: userMineInfo,
-    personalDynamic: personalDynamic },
+    userMineInfo: userMineInfo },
 
   data: function data() {
     return {
       userMineInfo: {
         userName: "苏年璟", //自定义昵称
         headPortrait: false, //判断是否有头像
-        userImg: "", //头像地址
+        userImg: "https://profile.csdnimg.cn/3/0/4/1_wangxin1029", //头像地址
         fansNum: 0, //粉丝数量
         focusedNum: 0 //已关注数量
-      },
-      personalDynamic: {
-        articleLength: false,
-        newsContent: {} } };
-
+      } };
 
   } };exports.default = _default;
 

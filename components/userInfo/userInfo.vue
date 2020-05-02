@@ -48,7 +48,7 @@
 <style lang="scss" scoped>
 	#mine-info {
 		width: 100%;
-		height: 300rpx;
+		height: 400rpx;
 		font-weight: 800;
 		color: #FFFFFF;
 		overflow: hidden;
@@ -59,7 +59,7 @@
 			display: flex;
 			justify-content: space-between;
 			line-height: 154rpx;
-			padding: 30rpx 40rpx 0rpx;
+			padding: 80rpx 40rpx 0rpx;
 
 			.userTitle {
 				width: auto;
@@ -133,8 +133,8 @@
 				display: flex;
 				flex-direction: column;
 				text-align: center;
-				line-height: 40rpx;
-				width: 180rpx;
+				line-height: 50rpx;
+				width: 200rpx;
 				font-size: 24rpx;
 				color: #a6a6a6;
 

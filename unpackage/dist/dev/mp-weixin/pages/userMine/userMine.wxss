@@ -31,17 +31,26 @@
 /* 文章场景相关 */
 #userMine {
   width: 100vw;
-  height: 94.5vh;
-  padding: 1vh 2vw;
-  background-color: #3e3e3e;
+  height: auto;
 }
 #userMine .userMineInfo {
   width: 100%;
-  height: 24vh;
+  height: 400rpx;
+  background-color: #3e3e3e;
 }
-#userMine .personalDynamic {
+#userMine .dynamic {
   width: 100%;
-  height: 69vh;
-  background-color: #F4F5F6;
+  padding: 0 20rpx;
+  color: #E07A76;
+  background-color: #FFFFFF;
+}
+#userMine .dynamic text {
+  display: inline-block;
+  height: 70rpx;
+  margin-left: 20rpx;
+  line-height: 90rpx;
+  font-size: 30rpx;
+  font-weight: 900;
+  border-bottom: 8rpx solid #E07A76;
 }
 

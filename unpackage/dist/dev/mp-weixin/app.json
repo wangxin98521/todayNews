@@ -3,7 +3,8 @@
     "pages/mine/mine",
     "pages/index/index",
     "pages/attention/attention",
-    "pages/userMine/userMine"
+    "pages/userMine/userMine",
+    "pages/search/search"
   ],
   "subPackages": [],
   "window": {
@@ -38,5 +39,6 @@
       }
     ]
   },
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap43.json"
 }

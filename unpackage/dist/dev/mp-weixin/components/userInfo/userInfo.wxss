@@ -31,7 +31,7 @@
 /* 文章场景相关 */
 #mine-info.data-v-be8e43f8 {
   width: 100%;
-  height: 300rpx;
+  height: 400rpx;
   font-weight: 800;
   color: #FFFFFF;
   overflow: hidden;
@@ -45,7 +45,7 @@
   -webkit-justify-content: space-between;
           justify-content: space-between;
   line-height: 154rpx;
-  padding: 30rpx 40rpx 0rpx;
+  padding: 80rpx 40rpx 0rpx;
 }
 #mine-info .userInfo .userTitle.data-v-be8e43f8 {
   width: auto;
@@ -114,8 +114,8 @@
   -webkit-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  line-height: 40rpx;
-  width: 180rpx;
+  line-height: 50rpx;
+  width: 200rpx;
   font-size: 24rpx;
   color: #a6a6a6;
 }
