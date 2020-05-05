@@ -1,10 +1,10 @@
 <script>
 	export default {
 		onLaunch: function() {
-			console.log('App Launch')
+			// console.log('App Launch')
 		},
 		onShow: function() {
-			console.log('App Show')
+			// console.log('App Show')
 		},
 		onHide: function() {
 			console.log('App Hide')
@@ -18,6 +18,10 @@
 		background-color: #F4F5F6;;
 	}
 	/*每个页面公共css */
+	@font-face {
+		font-family:"STLiti";
+		src: url(./static/font-family/STLiti.TTF);
+	}
 	/* 字体图标 */
 	@font-face {
 	  font-family: 'iconfont';  /* project id 1563611 */

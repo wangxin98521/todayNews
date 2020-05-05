@@ -29,7 +29,7 @@
 		},
 		data() {
 			return {
-				isLogin: true, //是否登录
+				isLogin: false, //是否登录
 				userInfo: {
 					userName: "苏年璟", //自定义昵称
 					headPortrait: false, //判断是否有头像

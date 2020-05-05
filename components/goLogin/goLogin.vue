@@ -13,7 +13,9 @@
 		},
 		methods: {
 			goLogin: function() {
-				alert("去登入吧")
+				uni.navigateTo({
+					url:"../../pages/login/login"
+				})
 			}
 		}
 	}
@@ -22,7 +24,7 @@
 <style lang="scss" scoped>
 	#goLogin {
 		width: 100%;
-		line-height: 300rpx;
+		line-height: 400rpx;
 		text-align: center;
 
 		text {
